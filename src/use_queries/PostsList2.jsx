@@ -1,6 +1,6 @@
 import { useQuery, useMutation, QueryClient, useQueryClient } from "@tanstack/react-query"
 import { useEffect } from "react"
-import posts from "./api/posts"
+import posts from "./../api/posts"
 
 const POSTS = [
     {

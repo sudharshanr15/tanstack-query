@@ -1,7 +1,7 @@
 import { useState } from "react"
-import PostsList1 from "./PostsList1"
-import PostsList2 from "./PostsList2"
-import FirstPost from "./FirstPost"
+import PostsList1 from "./use_queries/PostsList1"
+import PostsList2 from "./use_queries/PostsList2"
+import FirstPost from "./use_queries/FirstPost"
 
 function DeepDive(){
     const [currentpage, setCurrentPage] = useState(<PostsList1 />)

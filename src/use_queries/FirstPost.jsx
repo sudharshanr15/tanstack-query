@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query"
 import { useEffect } from "react"
-import getPost from "./api/getPost"
-import getUser from "./api/getUser"
+import getPost from "./../api/getPost"
+import getUser from "./../api/getUser"
 
 function FirstPost({ id }){
     const postQuery = useQuery({
